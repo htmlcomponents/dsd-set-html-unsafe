@@ -12,8 +12,7 @@ export class AddIconButton extends HTMLElement {
     <template shadowrootmode="open">
         <link rel="stylesheet" href="./icon-button.css">
         <button>
-            <svg>
-                <use href="./icons.svg#star"></use>
+            <svg style="background-color: red;">
             </svg>
         </button>
     </template>

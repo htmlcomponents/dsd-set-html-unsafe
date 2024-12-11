@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS in head</title>
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="./icon-button.css" />
+  </head>
+  <body>
+    <add-icon-button>
+      <template shadowrootmode="open">
+        <style>
+          :host {
+            display: block;
+          }
+        </style>
+        <button>Add <code>&lt;icon-button&gt;</code> element</button>
+        <div id="container"></div>
+      </template>
+    </add-icon-button>
+  </body>
+</html>
